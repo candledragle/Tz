@@ -39,19 +39,19 @@ public class FirstActivity extends Activity {
 				startActivity(intent);
 			}
 		});
-/*	//为Button注册点击事件
+		//为Button注册点击事件
 		button.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
 				
-				 * 第一个参数为Intent对象
+				 /* 第一个参数为Intent对象
 				 * 第二个参数为一个请求标识（requestCode）
-				 * 
+				 */
 				startActivityForResult(intent, 1);
 			}
-		});*/
+		});
 	}
 	//接受SecondActivity传回的数据
 	@Override
