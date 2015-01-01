@@ -30,8 +30,8 @@ public class SecondActivity extends Activity {
 				data.putExtra("data", context);
 				//设置结果码
 				setResult(2, data);
-				/*//结束当前页面
-				finish();*/
+				//结束当前页面
+				finish();
 			}
 		});
 	}
