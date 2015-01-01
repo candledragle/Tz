@@ -13,7 +13,7 @@ public class FirstActivity extends Activity {
 	ImageButton imageButton;
 	Button button;
 	EditText editText;
-	String dataText;
+	String dataText="heh";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -24,7 +24,7 @@ public class FirstActivity extends Activity {
 		button=(Button)findViewById(R.id.button);
 		//获得EditText对象
 		editText=(EditText) findViewById(R.id.editText);
-		editText.setText(dataText);
+		
 		//为imageButton注册点击事件
 		imageButton.setOnClickListener(new OnClickListener() {
 		
@@ -63,6 +63,7 @@ public class FirstActivity extends Activity {
 			 * */
 			if((requestCode==1)&&(resultCode==2)){
 				dataText=data.getStringExtra("data");
+				editText.setText(dataText);
 			}
 	
 	}
