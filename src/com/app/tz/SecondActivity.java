@@ -9,9 +9,9 @@ import android.widget.Button;
 
 public class SecondActivity extends Activity {
 	private Button button;
-	private String context;
+	private String context="呵呵，你发现我了";
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState ) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.second);
 		//获得button对象
