@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tz</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ButtonText">跳转</string>
+    <string name="sButtonText">跳转</string>
+    <string name="firstjm">第一个界面</string>
+    <string name="sym">第二个页面</string>
+    <string name="Etext">这里将显示第二个页面返回的信息</string>
+
+</resources>
